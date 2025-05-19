@@ -1,0 +1,4 @@
+# No external PHP dependencies required.
+# Ensure PHP 8.x is installed.
+# MySQL server (e.g., via XAMPP).
+# Tailwind CSS is loaded via CDN (https://cdn.tailwindcss.com).

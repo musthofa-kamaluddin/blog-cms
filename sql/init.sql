@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS blog_cms;
+
+USE blog_cms;
+
+CREATE TABLE IF NOT EXISTS posts (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+
+INSERT INTO users (username, password) VALUES ('admin', '$2y$10$./V9c78MqRvKVgAbTv57OOaljT94L7LkItIC.a/eF8/X4ZmZ6HsiW'); -- Password: admin123
