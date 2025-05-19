@@ -71,8 +71,5 @@ Suggestions for contributions:
 ## License
 MIT License
 
-## Demo
-*(Add a screenshot or GIF here after testing, e.g., using Licecap)*
-
 ## Contact
-For questions, open an issue or contact [your email or GitHub profile].
+For questions, open an issue
